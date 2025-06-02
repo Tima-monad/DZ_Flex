@@ -1,0 +1,61 @@
+.authors {
+    width: 1280px;
+    height: 776px;
+
+}
+
+.authors-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 48px;
+}
+
+.block-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.block-row-element-content {
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: 324px;
+    background: var(--Light-grey, #F4F4F4);
+    align-items: center;
+    margin: 0 32px 32px 0;
+}
+
+.block-row-element-content:nth-child(4),
+.block-row-element-content:nth-child(8) {
+    margin: 0;
+}
+
+.block-row-element-content:nth-child(n+5):nth-child(-n+8) {
+    margin: 0;
+}
+
+.author_img {
+    margin: 40px 0 20px;
+}
+
+.author_name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    /* 142.857% */
+    letter-spacing: -1px;
+}
+
+.author_text {
+    color: var(--Medium-grey, #6D6E76);
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+    /* 142.857% */
+    margin-bottom: 20px;
+}

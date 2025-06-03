@@ -15,7 +15,6 @@
 .authors-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 32px;
 }
 
@@ -24,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     background: #F4F4F4;
+    padding: 40px 58px ;
 }
 
 #yellow{
@@ -31,7 +31,7 @@
 }
 
 .author-img {
-    margin: 40px 0 20px;
+    margin-bottom: 20px;
     border-radius: 100%;
     width: 128px;
     height: 128px;
@@ -52,7 +52,7 @@
     font-size: 14px;
     line-height: 20px;
     /* 142.857% */
-    margin: 0 28px 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -60,5 +60,4 @@
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 40px;
 }

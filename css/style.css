@@ -30,7 +30,7 @@
     background: #FBF6EA;
 }
 
-.author-img {
+.authors-list-item-img {
     margin-bottom: 20px;
     border-radius: 100%;
     width: 128px;
@@ -38,7 +38,7 @@
 
 }
 
-.author-name {
+.authors-list-item-name {
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
@@ -46,12 +46,11 @@
     letter-spacing: -1px;
 }
 
-.author-text {
+.authors-list-item-text {
     color: var(--Medium-grey, #6D6E76);
     font-family: Inter;
     font-size: 14px;
-    line-height: 20px;
-    /* 142.857% */
+    line-height: 1.42;
     margin-bottom: 20px;
 
 }

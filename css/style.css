@@ -41,8 +41,7 @@
 .authors-list-item-name {
     font-size: 28px;
     font-weight: 700;
-    line-height: 40px;
-    /* 142.857% */
+    line-height: 1.42;
     letter-spacing: -1px;
 }
 
